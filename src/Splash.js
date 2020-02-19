@@ -12,7 +12,7 @@ const Splash = (props) =>{
     return(
         <Media>
             {({ breakpoints, currentBreakpoint }) =>
-                breakpoints[currentBreakpoint] > breakpoints.tablet ? (
+                breakpoints[currentBreakpoint] > breakpoints.mobileLandscape ? (
                     <SplashDesktop projects = {projects}></SplashDesktop>
                 ) : (
                     <SplashMobile projects={projects}></SplashMobile>

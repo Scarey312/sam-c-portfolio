@@ -14,7 +14,7 @@ class SplashDesktop extends React.Component{
                     I'm a junior Software Engineer that enjoys building interesting things.
                 </p>
             </div>
-            <Carousel >
+            <Carousel style={{height:"100%", width:"100%"}}>
                     <Carousel.Item>
                         <br></br>
                         <ContactCard></ContactCard>

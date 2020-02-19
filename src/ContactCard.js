@@ -6,14 +6,13 @@ function ContactCard(){
 
     return(
             
-            <Card style={{width: '70%', height:"10%", textAlign:"center"}}>
+            <Card style={{width: '20em', height:"25em", textAlign:"center"}}>
                         <Card.Body>
                         <Card.Title><img src={require ("./samProf.jpg")} alt="" className="myimg"/></Card.Title>
                         <br></br>
                         <Card.Title>Interested in working together?</Card.Title>
                         <Card.Text>
-                        If you're looking for a candidate like me, consider contacting me to establish a base. 
-                        <br></br>
+update                        <br></br>
                         <br></br>
                         <Button variant="dark">Contact</Button>
                         
