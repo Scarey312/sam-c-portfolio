@@ -1,8 +1,9 @@
-import React, {Component} from 'react'
+import React, {Component, Image} from 'react'
 import Navigation from './Navigation.js'
 import Splash from './Splash.js'
 import Project from './Project.js'
 import './App.css'
+import bgimage from './background.png'
 import Work from './Work';
 class App extends Component {
 
@@ -98,9 +99,11 @@ class App extends Component {
     ]
     
       return (
-        <div style={{backgroundImage:"linear-gradient(-90deg,#8bc5ff,#c58bff,#ff8b8b 100%)"}}>
+        <div>
+          <div style={{display:"flex",flexDirection:"column",backgroundImage:`url(${bgimage})`, backgroundSize:"cover"}}>
           <Navigation/>
           <Splash/>
+          </div>
           <div style={{backgroundColor:"#fefefe"}}>
             <br></br>
             <Project projectData = {projects}/>  

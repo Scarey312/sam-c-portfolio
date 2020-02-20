@@ -6,7 +6,7 @@ function ContactCard(){
 
     return(
             
-            <Card style={{width: '20em', height:"25em", textAlign:"center"}}>
+            <Card style={{borderRadius:"15px",margin:"3em", textAlign:"center",backgroundColor:"rgba(255, 255, 255, 0.24)", backdropFilter:"blur(10px)"}}>
                         <Card.Body>
                         <Card.Title><img src={require ("./samProf.jpg")} alt="" className="myimg"/></Card.Title>
                         <br></br>

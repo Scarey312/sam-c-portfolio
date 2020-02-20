@@ -9,13 +9,14 @@ import SplashMobile from './SplashMobile'
 
 const Splash = (props) =>{
     const { projects } = props;
+    var display = "";
     return(
         <Media>
             {({ breakpoints, currentBreakpoint }) =>
-                breakpoints[currentBreakpoint] > breakpoints.mobileLandscape ? (
-                    <SplashDesktop projects = {projects}></SplashDesktop>
+                breakpoints[currentBreakpoint] > breakpoints.tablet ? (
+                    <SplashDesktop></SplashDesktop>
                 ) : (
-                    <SplashMobile projects={projects}></SplashMobile>
+                    <SplashMobile></SplashMobile>
                 )
             }
         </Media>
