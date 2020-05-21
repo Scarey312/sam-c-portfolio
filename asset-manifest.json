@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/sam-c-portfolio/static/css/main.f8133773.chunk.css",
+    "main.js": "/sam-c-portfolio/static/js/main.fec49748.chunk.js",
+    "main.js.map": "/sam-c-portfolio/static/js/main.fec49748.chunk.js.map",
+    "runtime-main.js": "/sam-c-portfolio/static/js/runtime-main.6caa4dd3.js",
+    "runtime-main.js.map": "/sam-c-portfolio/static/js/runtime-main.6caa4dd3.js.map",
+    "static/css/2.67123b20.chunk.css": "/sam-c-portfolio/static/css/2.67123b20.chunk.css",
+    "static/js/2.43283e74.chunk.js": "/sam-c-portfolio/static/js/2.43283e74.chunk.js",
+    "static/js/2.43283e74.chunk.js.map": "/sam-c-portfolio/static/js/2.43283e74.chunk.js.map",
+    "index.html": "/sam-c-portfolio/index.html",
+    "precache-manifest.613f1c0906d2f0b753212c8cc6c6bc79.js": "/sam-c-portfolio/precache-manifest.613f1c0906d2f0b753212c8cc6c6bc79.js",
+    "service-worker.js": "/sam-c-portfolio/service-worker.js",
+    "static/css/2.67123b20.chunk.css.map": "/sam-c-portfolio/static/css/2.67123b20.chunk.css.map",
+    "static/css/main.f8133773.chunk.css.map": "/sam-c-portfolio/static/css/main.f8133773.chunk.css.map",
+    "static/js/2.43283e74.chunk.js.LICENSE.txt": "/sam-c-portfolio/static/js/2.43283e74.chunk.js.LICENSE.txt",
+    "static/media/samProf.jpg": "/sam-c-portfolio/static/media/samProf.742045a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6caa4dd3.js",
+    "static/css/2.67123b20.chunk.css",
+    "static/js/2.43283e74.chunk.js",
+    "static/css/main.f8133773.chunk.css",
+    "static/js/main.fec49748.chunk.js"
+  ]
+}
