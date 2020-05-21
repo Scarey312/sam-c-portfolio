@@ -19,9 +19,16 @@ code {
   font-weight: 600;
 }
 
+.left-half2{
+  flex:1;
+}
 .left-half{
   margin: auto;
   flex:2;
+  vertical-align: middle;
+}
+.right-half2{
+  flex:1;
 }
 .right-half{
   margin: auto;
@@ -33,10 +40,26 @@ code {
   object-fit:cover;
   border-radius:50%;
 }
+.projimg{ 
+  height:500px;
+  object-fit:cover;
+  
+}
+.myStyle{
+  text-align:center;
+  background-color : rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter:blur(50px);
+}
+
+.myStyle2{
+  background-color : rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter:blur(50px);
+}
 
 .card{
   margin: 0 auto;  
-  color:rgb(0, 0, 0);
   -webkit-box-shadow: 10px 10px 19px -14px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 19px -14px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 19px -14px rgba(0,0,0,0.75);
@@ -46,6 +69,6 @@ box-shadow: 10px 10px 19px -14px rgba(0,0,0,0.75);
 
 .navbar,
 .navbar-default {
-  background-color: rgba(255, 255, 255, 0.24);  
-  backdrop-filter: blur(30px);
+  background-color: rgba(255, 255, 255, 0.3);  
+  backdrop-filter: blur(50px);
 }

@@ -1,115 +1,26 @@
-import React, {Component, Image} from 'react'
+import React, {Component} from 'react'
 import Navigation from './Navigation.js'
 import Splash from './Splash.js'
-import Project from './Project.js'
+import projects from './Projects.json'
 import './App.css'
-import bgimage from './background.png'
-import Work from './Work';
+import { BrowserRouter,HashRouter, Route, Switch } from 'react-router-dom'
+import Home from './Home.js'
+import ProjectPage from './ProjectPage'
 class App extends Component {
 
-  render(){
-    const projects = [
-      {
-        name: 'AmitTask',
-        flag: '⭐ Featured',
-        subtitle: 'Medical Team-Tasking Mobile application designed for the UT Health Science Center',
-        img: "./amitask.png", 
-        tags: [
-          {tag: "Swift"},
-          {tag:"Mobile App"},
-          {tag: "UI/UX"},
-          {tag:"Requirements Gathering"}, 
-          {tag: "Technical Documentation"},
-          {tag:"Team Effort"},
-          {tag:"Leadership"}
-        ]
-      },
-      {
-        name: 'This Web App',
-        flag: '⭐ Featured',
-        subtitle: 'Getting my feet wet with Reactjs and modern web development.',
-        img: "./portfolio.png", 
-        tags: [
-          {tag: "React"},
-          {tag:"JavaScript"},
-          {tag: "Bootstrap"},
-          {tag: "HTML"},
-          {tag: "CSS"},
-          {tag: "Responsive Web Design"},
-          {tag: "UI/UX"},
-        ]
-      },
-      {
-        name: 'Dog Daze',
-        flag: '⚠ Experimental',
-        subtitle: 'A rather playable, completable, zany little game about a mischevious pup.',
-        img: "./dogdaze.png", 
-
-        tags: [
-          {tag: "C#"},
-          {tag:"Unity"},
-          {tag: "Game Design"},
-          {tag: "UI/UX"},
-          {tag: "Team Effort"},
-        ]
-      },
-      {
-        name: 'Modulo Watchface',
-        flag: '🎨 Design',
-        subtitle: 'xcSCCsacSC',
-        img: "./modulo.png", 
-        tags: [
-          {tag: "Wearables"},
-          {tag:"Pebble"},
-          {tag: "Mockup"},
-        ]
-      },
-     
-      {
-        name: 'Medsys',
-        flag: '📖 Academic',
-        subtitle: 'Getting my feet wet with Reactjs and modern web development.',
-        img: "./medsys.png", 
-        tags: [
-          {tag: "React"},
-          {tag:"JavaScript"},
-          {tag: "Bootstrap"},
-          {tag: "HTML"},
-          {tag: "CSS"},
-          {tag: "Responsive Web Design"},
-          {tag: "UI/UX"},
-        ]
-      },
-      {
-        name: 'Cramr',
-        flag: '📖 Academic',
-        subtitle: 'A Game Development Course final project. A rather playable, completable, zany little game about a mischevious pup.',
-        img: "./cramr.png", 
-        tags: [
-          {tag: "React"},
-          {tag:"JavaScript"},
-          {tag: "Bootstrap"},
-          {tag: "HTML"},
-          {tag: "CSS"},
-          {tag: "Responsive Web Design"},
-          {tag: "UI/UX"},
-        ]
-      },
-      
-    ]
-    
+  render(){    
       return (
-        <div>
-          <div style={{display:"flex",flexDirection:"column",backgroundImage:`url(${bgimage})`, backgroundSize:"cover"}}>
-          <Navigation/>
-          <Splash/>
+
+          <HashRouter>
+          <div style={{display:"flex",flexDirection:"column",backgroundImage:`url(https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=en-US)`}}>
+            <Navigation></Navigation>
+            <Switch>
+              <Route path="/" component={Home} exact/>
+              <Route path="/projects/:projName" component={ProjectPage}/>
+            </Switch>
           </div>
-          <div style={{backgroundColor:"#fefefe"}}>
-            <br></br>
-            <Project projectData = {projects}/>  
-          </div>
-        </div>
-        
+          </HashRouter>
+         
         
       
 );
