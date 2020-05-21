@@ -1,0 +1,101 @@
+[
+    {
+      "name": "AmitTask",
+      "flag": "⭐ Featured",
+      "subtitle": "Medical Team-Tasking Mobile application designed for the UT Health Science Center",
+      "img": "./amitask.png",
+      "background" : "UTSA – Advanced Software Engineering and Independent Study",
+      "problem":"The client approached our team describing a for need a streamlined task management solution at the UTHSC.  Current task management systems in place are clunky and outdated – medical staff utilize pagers, written lists, and an array of clunky, ancient software solutions.",
+      "solution":"The client needed a modern solution to completely replace current systems. After meeting with the client, the solution became clear: we could develop a single hub for task management. A mobile, simple and more practical application that streamlines the fragmented processes currently utilized.",
+      "process1":"A proper solution would need to be able to completely replace every other solution in use by the client and medical teams. The first step in developing our solution was understanding the client’s needs. Our team spent several weeks gathering requirements, researching the software we were aiming to replace, and studying the processes described by the client. Understanding the client’s problem space was an iterative process that continued throughout the entire two semesters.",
+      "process2":"After becoming more comfortable with the problem space, we began constructing GUI mockups and wireframes in Adobe XD. Throughout the course of a few client meetings, we were able to get critical feedback on designs, flows, and features. Eventually, we were able to refine our understanding of specific navigation and feature details. Functional prototyping and development could begin.",
+      "process3": "Development was a learning process. Our dev team was entirely new to Swift, Xcode, and Interface Builder. Beginning development was slow to start but accelerated at improved rates after our team grew more comfortable with the tools at hand. Development sprints were established, and updates were presented to the client weekly.",
+      "results":"Our final product was an MVP with a number of features that the client could begin testing with in the hospital.",
+      "tags": [
+        {"tag": "Swift"},
+        {"tag":"Mobile App"},
+        {"tag": "UI/UX"},
+        {"tag":"Requirements Gathering"}, 
+        {"tag": "Technical Documentation"},
+        {"tag":"Team Effort"},
+        {"tag":"Leadership"}
+      ]
+    },
+    {
+      "name": "React Web Application",
+      "flag": "⭐ Featured",
+      "subtitle": "Getting my feet wet with Reactjs and modern web development.",
+      "img": "./portfolio.png",
+      "background":"I had the opportunity to work directly with a plastic surgeon from the UT Health Science Center to help solve.",
+      "problem":"solution",
+      "solution":"solution",
+      "process":"",
+      "lesson":"",
+      "tags": [
+        {"tag": "React"},
+        {"tag":"JavaScript"},
+        {"tag": "Bootstrap"},
+        {"tag": "HTML"},
+        {"tag": "CSS"},
+        {"tag": "Responsive Web Design"},
+        {"tag": "UI/UX"}
+      ]
+    },
+    {
+      "name": "Dog Daze",
+      "flag": "🚧 Experimental",
+      "subtitle": "A rather playable, completable, zany little game about a mischevious pup.",
+      "img": "./dogdaze.png", 
+
+      "tags": [
+        {"tag": "C#"},
+        {"tag":"Unity"},
+        {"tag": "Game Design"},
+        {"tag": "UI/UX"},
+        {"tag": "Team Effort"}
+      ]
+    },
+    {
+      "name": "Modulo Watchface",
+      "flag": "🎨 Design",
+      "subtitle": "xcSCCsacSC",
+      "img": "./modulo.png", 
+      "tags": [
+        {"tag": "Wearables"},
+        {"tag":"Pebble"},
+        {"tag": "Mockup"}
+      ]
+    },
+   
+    {
+      "name": "Medsys",
+      "flag": "📖 Academic",
+      "subtitle": "Getting my feet wet with Reactjs and modern web development.",
+      "img": "./medsys.png", 
+      "tags": [
+        {"tag": "React"},
+        {"tag":"JavaScript"},
+        {"tag": "Bootstrap"},
+        {"tag": "HTML"},
+        {"tag": "CSS"},
+        {"tag": "Responsive Web Design"},
+        {"tag": "UI/UX"}
+      ]
+    },
+    {
+      "name": "Cramr",
+      "flag": "📖 Academic",
+      "subtitle": "A Game Development Course final project. A rather playable, completable, zany little game about a mischevious pup.",
+      "img": "./cramr.png", 
+      "tags": [
+        {"tag": "React"},
+        {"tag":"JavaScript"},
+        {"tag": "Bootstrap"},
+        {"tag": "HTML"},
+        {"tag": "CSS"},
+        {"tag": "Responsive Web Design"},
+        {"tag": "UI/UX"}
+      ]
+    }
+    
+  ]
